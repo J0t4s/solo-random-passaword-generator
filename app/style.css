@@ -1,0 +1,135 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif; */
+
+body {
+    margin: 0;
+    background-color:  #1C1C1C;
+    font-family: 'inter' , sans-serif;
+}
+
+.card {
+    width: 550px;
+    height: 100%;
+    background-color: #1f2937;
+    margin: 64px;
+}
+
+
+.card_title {
+    display: inline-block;
+    width: 360px;
+    color: #FFF;
+    font-family: 'Karla' , 'Inter' , sans-serif;
+    font-size: 40px;
+    letter-spacing: -2,5%;
+    line-height: 40px;
+    margin: 100px 0  10px 50px;
+}
+
+.card_title > span {
+    color: #10B981;
+}
+
+.card_discription {
+    width: 380px;
+    color: #d5d4d8;
+    font-size: 20.5px;
+    font-weight: normal;
+    margin: 0 0 0 50px;
+}
+
+#input_number, .button_generate, .input_number_label {
+    border: none;
+    text-align: center;
+    box-shadow: 0px 1px 2px 0px hsla(0, 0%, 0%, 0.05);
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 11px 0px;
+
+}
+
+.input_number_label {
+    color: #fff;
+    display: inline-block;
+    padding: 11px 10px;
+}
+
+#input_number {
+    width: 50px;
+    margin: 50px 20px 0 50px;
+}
+
+.button_generate {
+    background-color: #10B981;
+    color: #FFF;
+    display: block;
+    margin: 0 20px 0 50px;
+    width: 225px;
+}
+
+.button_generate {
+    cursor: pointer;
+}
+.button_generate > span {
+    padding-left: 12px;
+}
+
+.button_icon {
+    width: 13px;
+}
+
+.line_decorative {
+    border: 1px solid #2F3E53;
+    margin: 35px auto;
+    width: 446px;
+}
+
+.password_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 20px;
+    margin: 0 auto 10px;
+    padding-bottom: 5px;
+    width: 446px;
+}
+
+.generatede_password, .input_number_label  {
+    display: inline-block;
+    background-color: #273549;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.random_pass {
+    border-radius: 6px;
+    color: #10B981;
+    font-weight: bold;
+    background-color: #273549;
+    border: none;
+    text-align: center;
+    height: 39px;
+    margin: 0 auto 0 auto;
+    width: 211px;
+}
+
+.random_pass:focus {
+    background-color: #6fa995;
+    color: #000;
+}
+
+.hidden {
+    display: none;
+}
+
+#message_clipboard {
+    color: #10B981;
+    opacity: 0;
+    font-size: 12px;
+    margin: 0;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    transition: opacity 150ms ease-in-out;
+    text-align: center;
+  }

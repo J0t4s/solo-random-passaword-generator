@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password Generator</title>
+</head>
+<body
+    <main>
+        <div class="card">
+
+            <h1 class="card_title">Generate a <span>random password</span></h1>
+            <img src="image/icon.jpg" alt="">
+            <p class="card_discription">Never use an insecure password again.</p>
+            <input type="number"  id="input_number" min="6" aria-labelledby="input_number_label">
+            <p class="input_number_label">Choose the number of characters (above 6)</p>
+            <button class="button_generate" id="btn_reset" onclick="renderPassword()"><img src="images/Icon.svg" class="button_icon"><span>Generate passwords</span></button>
+
+            <div class="line_decorative"></div>
+
+            <div class="password_container" >
+
+                <label for="random_pass_1" class="hidden">Password number 1</label>
+                <input type="text" class="random_pass" id="random_pass_1">
+
+                <label for="random_pass_2" class="hidden">Password number 2</label>
+                <input type="text" class="random_pass" id="random_pass_2">
+
+
+                <label for="random_pass_3" class="hidden">Password number 3</label>
+                <input type="text" class="random_pass" id="random_pass_3">
+
+                <label for="random_pass_4" class="hidden">Password number 4</label>
+                <input type="text" class="random_pass" id="random_pass_4">
+            </div>
+            <p id="message_clipboard"></p>            
+        </div>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
