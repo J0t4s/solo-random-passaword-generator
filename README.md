@@ -5,7 +5,7 @@
 - Copy the password to clipboard.
 
 # Links
-- url do site Live: soon...
+- url do site Live: [https://j0t4s.github.io/solo-random-passaword-generator/]
 
 # Built with
 - HTML5
