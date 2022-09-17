@@ -5,7 +5,7 @@
 - Copy the password to clipboard.
 
 # Links
-- url do site Live: [https://j0t4s.github.io/quizzical/]
+- url do site Live: soon...
 
 # Built with
 - HTML5
